@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section-list li a:hover {
+    text-shadow: 0px 0px 5px var(--light-melon);
+    transition: ease-in 0.2s;
+}
+
+.btn-normal:hover {
+    box-shadow: 0px 3px 10px 0px var(--cream);
+}
+
+.social-list--contact li a i:hover{
+    transform: translateY(-3px) scale(1.05);
+    transition-duration: 0.5s;
+    -webkit-transform: translateY(-3px) scale(1.05);
+    -moz-transform: translateY(-3px) scale(1.05);
+    -ms-transform: translateY(-3px) scale(1.05);
+    -o-transform: translateY(-3px) scale(1.05);
+}
+
+.social-list--contact .github:hover {
+    color: #000;
+}
+
+.social-list--contact .twitter:hover {
+    color: #00acee;
+}
+
+.social-list--contact .linkedin:hover {
+    color: #0e76a8;
+}
+
+.social-list--contact .facebook:hover {
+    color: #3b5998;
+}
+
+.social-list--contact .instagram:hover {
+    color: #DE1B85;
+}

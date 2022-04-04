@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonts and icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--style sheets-->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base-styles.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <title>Hola, Soy Azul</title>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <ul class="section-list">
+                <li><a href="#resume">Sobre mi</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+
+            <ul class="social-list">
+                <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li><li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hello" id="hello">
+            <div class="hello-hero" id="hello-hero">
+                <img src="./img/gif.gif" alt="">
+            </div>
+            <p>Soy Azul, Diseñadora, Desarrolladora web y Fotografa</p>
+            <div class="hello-link__container">
+                <a href="#" class="contact btn-normal">Contact me</a>
+                <a href="#" class="projects btn-normal">See my projects</a>
+            </div>
+        </section>
+    </main>
+    <section class="resume" id="resume">
+        <img src="./img/88347423.png" class="profile-pic" alt="">
+        <h2>Hello, it´s me</h2>
+        <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aliquam perferendis sed recusandae, necessitatibus ullam sint praesentium culpa maiores ducimus natus deserunt placeat, excepturi asperiores. Asperiores atque obcaecati dignissimos nam!</p>
+        
+        <div class="social-list--bio">
+            <div class="skill-box">
+                <i class="fa-brands fa-html5"></i>                
+                <p>HTML</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-css3-alt"></i>                
+                <p>CSS</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-js-square"></i>                
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-figma"></i>                
+                <p>Figma</p>
+            </div>
+        </div>
+    </section> 
+    <section class="portfolio-gallery" id="portfolio">
+        <div class="gallery-wrapper">
+            <h2 class="my-projects">My projects</h2>
+            <div class="project">
+                <img class="project-img" src="./img/ef3-placeholder-image.jpg" alt="">
+                <div class="project__data">
+                    <p class="project__class">Type</p>
+                    <p class="project__name">Name Project</p>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project-img" src="./img/ef3-placeholder-image.jpg" alt="">
+                <div class="project__data">
+                    <p class="project__class">Type</p>
+                    <p class="project__name">Name Project</p>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project-img" src="./img/ef3-placeholder-image.jpg" alt="">
+                <div class="project__data">
+                    <p class="project__class">Type</p>
+                    <p class="project__name">Name Project</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <h2 class="contact-me">Contact me!</h2>
+        <div class="form-contact">
+            <a href="mailto:azulnietogomez@gmail.com" class="btn-normal">email</a>
+            <a href="https://wa.me/525538917198" class="btn-normal btn-wa">whatsapp</a>
+            <div class="social-list-container">
+                <p>My social network</p>
+                <ul class="social-list--contact">
+                    <li><a href="#"><i class="fa-brands fa-github-alt github"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a> </li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-square facebook"></i></a> </li>
+                    <li><a href="#"><i class="fa-brands fa-instagram-square fa-instagram"></i></a> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a  class="footer-element" href="#">- Privacy Policy -</a>
+        <p class="footer-element" >Made with 💙 by Azul</p>
+        <p class="footer-element" >© 2022 Azul Nigo. All Rights Reserved.</p>
+    </footer>
+    <script src="./js/funtions.js"></script>
+</body>
+</html>

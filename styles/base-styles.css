@@ -1,0 +1,19 @@
+:root {
+    --teko:'Teko', sans-serif;
+    --barlow: 'Barlow Semi Condensed', sans-serif;
+/*Ligth palette*/
+    --accent-pink: #FF87CA;
+    --palid-pink: #ffc4e1;
+    --light-melon: #EAEAEA;
+    --dark-melon: #EED7CE;
+    --just-white: #ffff;
+/*Dark palette*/
+    --very-dark-blue: #1D2D50;
+    --dark-blue: #133B5C;
+    --lightest-blue: #1E5F74;
+    --cream: #FCDAB7;
+}
+
+html {
+    font-size: 62.5%;
+}
